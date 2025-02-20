@@ -51,6 +51,8 @@ npm run dev
 
 ## Adatbázis szerkezet
 ```sql
+CREATE DATABASE IF NOT EXISTS gyumolcsok;
+
 CREATE TABLE fruits (
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(255) NOT NULL,
