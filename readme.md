@@ -15,7 +15,7 @@ Ez a projekt egy teljeskörű gyümölcs-nyilvántartó alkalmazás, amely MySQL
 - Gyümölcs törlése
 
 ## Backend REST API végpontok
-- `GET /fruits` – Az összes gyümölcs lekérdezése
+- `GET /fruits` – Az összes gyümölcs lekérdezése 
 - `GET /fruits/:id` – Egy adott gyümölcs lekérdezése ID alapján
 - `POST /fruits` – Új gyümölcs hozzáadása
 - `PUT /fruits/:id` – Egy meglévő gyümölcs adatainak frissítése
@@ -35,3 +35,10 @@ CREATE TABLE fruits (
     quantity INT NOT NULL,
     price DECIMAL(10,2) NOT NULL
 );
+
+INSERT INTO fruits (name, quantity, price) VALUES 
+('Alma', 50, 1.20),
+('Banán', 30, 0.80),
+('Narancs', 20, 1.50),
+('Körte', 15, 2.00),
+('Szőlő', 40, 3.00);
