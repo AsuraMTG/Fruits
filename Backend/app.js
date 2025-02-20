@@ -1,7 +1,6 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
-
 const db = require('./db');
 
 const app = express();
@@ -49,7 +48,6 @@ app.post('/fruits', async (req, res) => {
     }
 });
 
-//PUT /fruits/:id
 app.put('/fruits/:id', async (req, res) => {
     const id = req.params.id;
     const { name, quantity, price } = req.body;
