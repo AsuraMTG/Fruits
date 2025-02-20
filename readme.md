@@ -23,13 +23,13 @@ Ez a projekt egy teljeskörű gyümölcs-nyilvántartó alkalmazás, amely MySQL
 
 ## Frontend Installation
 ```npm
-    cd .\Backend\
-    npm i express mysql2 dotenv body-parser cors
+cd .\Backend\
+npm i express mysql2 dotenv body-parser cors
 ```
 
 ## Frontend Start
 ```npm
-    node .\app.js
+node .\app.js
 ```
 
 ## Frontend funkciók
@@ -40,13 +40,13 @@ Ez a projekt egy teljeskörű gyümölcs-nyilvántartó alkalmazás, amely MySQL
 
 ## Frontend Installation
 ```npm
-    cd .\Frontend\
-    npm i styled-components
+cd .\Frontend\
+npm i styled-components
 ```
 
 ## Frontend Start
 ```npm
-    npm run dev
+npm run dev
 ```
 
 ## Adatbázis szerkezet
