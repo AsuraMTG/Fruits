@@ -41,7 +41,7 @@ node .\app.js
 ## Frontend Installation
 ```npm
 cd .\Frontend\
-npm i styled-components
+npm i styled-components axios
 ```
 
 ## Frontend Start
