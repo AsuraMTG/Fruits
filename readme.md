@@ -21,11 +21,33 @@ Ez a projekt egy teljeskörű gyümölcs-nyilvántartó alkalmazás, amely MySQL
 - `PUT /fruits/:id` – Egy meglévő gyümölcs adatainak frissítése
 - `DELETE /fruits/:id` – Egy gyümölcs törlése
 
+## Frontend Installation
+```npm
+    cd .\Backend\
+    npm i express mysql2 dotenv body-parser cors
+```
+
+## Frontend Start
+```npm
+    node .\app.js
+```
+
 ## Frontend funkciók
 - A gyümölcsök listájának megjelenítése egy táblázatban
 - Új gyümölcs felvétele egy űrlapon keresztül
 - Szerkesztési lehetőség a meglévő gyümölcsökre
 - Törlés gomb a felesleges bejegyzések eltávolítására
+
+## Frontend Installation
+```npm
+    cd .\Frontend\
+    npm i styled-components
+```
+
+## Frontend Start
+```npm
+    npm run dev
+```
 
 ## Adatbázis szerkezet
 ```sql
@@ -42,3 +64,4 @@ INSERT INTO fruits (name, quantity, price) VALUES
 ('Narancs', 20, 1.50),
 ('Körte', 15, 2.00),
 ('Szőlő', 40, 3.00);
+```
