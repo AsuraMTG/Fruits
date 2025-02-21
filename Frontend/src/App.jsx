@@ -64,6 +64,7 @@ function App() {
         <MyButton color="green" onClick={createFruit}>Küldés</MyButton>
         <MyButton color="orange" onClick={updateFruit}>Módosítás</MyButton>
       </form>
+      <h1>Gyümölcsök</h1>
       <table>
         <thead>
           <tr>
